@@ -105,5 +105,6 @@ header a {
 
 header a:hover {
     font-size: 1.3em;
+    font-weight: 520;
     transition: font-size 0.2s;
 }
