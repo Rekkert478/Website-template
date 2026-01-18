@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 .instagram-link {
     position: relative;
     z-index: 1;
@@ -78,7 +76,6 @@
     opacity: 1;
 }
 
->>>>>>> main
 body {
     margin: 0;
     min-height: 100vh;
@@ -91,35 +88,22 @@ body {
 }
 
 header {
-<<<<<<< HEAD
-    background-color: #ff6666;
-    color: white;
-    text-align: right;
-=======
     display: flex;
     justify-content: flex-end;
     align-items: center;
     background-color: #ff6666;
     color: white;
->>>>>>> main
     height: 100px; 
 }
 
 header a {
-<<<<<<< HEAD
-    margin-right: 16px;
+    margin-right: 64px;
     color : white;
     text-decoration: none;
-=======
-    margin-right: 150px;
-    color : white;
-    text-decoration: none;
-    transition: color 0.2s, font-size 0.2s;
-    font-family: 'Montserrat', sans-serif;
+    font-family: Montserrat, sans-serif;
 }
 
 header a:hover {
-    color: #F5F5F5;
-    font-size: 1.15em;
->>>>>>> main
+    font-size: 1.3em;
+    transition: font-size 0.2s;
 }
