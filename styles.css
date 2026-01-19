@@ -59,13 +59,13 @@
         width: 78px;
         height: 78px;
         transform: translate(-50%, -50%);
-    background-image: url('Bilder/Steam_Logo.png');
-        background-size: contain;
-        background-repeat: no-repeat;
-        opacity: 0;
-        transition: opacity 0.3s;
-        z-index: -1;
-        pointer-events: none;
+        background-image: url('Bilder/Steam_Logo.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            opacity: 0;
+            transition: opacity 0.3s;
+            z-index: -1;
+            pointer-events: none;
     }
 
     .steam-link:hover::after {
@@ -79,9 +79,8 @@
 body {
     margin: 0;
     min-height: 100vh;
-
     background: linear-gradient(
-        to bottom,
+        to right,
         #ffb3b3,
         #ffe6e6
     );
@@ -107,4 +106,46 @@ header a:hover {
     font-size: 1.3em;
     font-weight: 520;
     transition: font-size 0.2s;
+}
+
+.custom-sidebar {
+    position: fixed;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    font-family: "Roboto", sans-serif;
+    width: 80px;
+    top: 124px;
+    left:24px;
+    border-radius: 10px;
+    box-shadow: 0 8px 32px rgba(144, 1, 1, 0.4);
+    overflow: hidden;
+    color:#2a0d0d;
+}
+
+.custom-sidebar .menu a {
+    color:#2a0d0d;
+    text-decoration: none;
+}
+
+.custom-sidebar .logo {
+    font-size: 30px;
+    font-weight: 900;
+    background-image: radial-gradient(
+        circle 815px at 23.4% -21.8%, rgba(172, 3, 3, 0.25) 0.2%,
+        rgba(0, 0, 0, 1) 100.2%
+    );
+    color:#b80000;
+    padding: 8px 20px;
+}
+
+.custom-sidebar .menu {
+    border-top: 1px solid rgba(75, 0, 0, 0.3);
+    padding: 16px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.custom-sidebar .menu svg {
+    height: 40px;
 }
