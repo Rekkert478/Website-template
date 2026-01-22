@@ -88,7 +88,7 @@ body {
 
 header {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     background-color: #ff6666;
     color: white;
@@ -100,6 +100,14 @@ header a {
     color : white;
     text-decoration: none;
     font-family: Montserrat, sans-serif;
+}
+
+.header-left {
+    position: relative;
+    left: 32px;
+    font-size: 2em;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
 }
 
 header a:hover {
